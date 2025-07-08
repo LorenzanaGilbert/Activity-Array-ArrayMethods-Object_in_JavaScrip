@@ -1,0 +1,49 @@
+// Concatenate two arrays using concat()
+const arr1 = ["Cecile", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const combinedArr = arr1.concat(arr2);
+console.log(combinedArr); // Output: ['Cecile', 'Lone', 'Emil', 'Tobias', 'Linus']
+
+
+// Add an element to the end of an array using push()
+let fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+console.log(fruits); // Output: ['Banana', 'Orange', 'Apple', 'Mango', 'Kiwi']
+
+
+// Add elements to the beginning of an array using unshift()
+let array1 = [1, 2, 3];
+array1.unshift(4, 5);
+console.log(array1); // Output: [4, 5, 1, 2, 3]
+
+
+// Remove the last element from an array using pop()
+fruits.pop();
+console.log(fruits); // Output: ['Banana', 'Orange', 'Apple', 'Mango']
+
+
+// Remove the first element from an array using shift()
+let array2 = [1, 2, 3];
+array2.shift();
+console.log(array2); // Output: [2, 3]
+
+
+// Sort an array alphabetically using sort()
+fruits.sort();
+console.log(fruits); // Output: ['Apple', 'Banana', 'Mango', 'Orange']
+
+
+// Create a new array containing a portion of an array using slice()
+const slicedFruits = fruits.slice(1, 3); // Elements from index 1 up to (but not including) index 3
+console.log(slicedFruits); // Output: ['Banana', 'Mango']
+
+
+// Insert and remove elements from an array using splice()
+let months = ["Jan", "Feb", "Mar", "Apr", "May"];
+//Insert "June" at index 5
+months.splice(5, 0, "June");
+console.log(months); // Output: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June']
+
+//Remove "Mar" at index 2 and insert "March" and "April"
+months.splice(2, 1, "March", "April");
+console.log(months); // Output: ['Jan', 'Feb', 'March', 'April', 'Apr', 'May', 'June']
