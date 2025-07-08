@@ -1,0 +1,19 @@
+// Create an array of favorite singers
+const favSingers = ["Beyoncé", "Adele", "Freddie Mercury"];
+
+// Log the first singer using array index notation
+console.log(favSingers[0]); // Output: Beyoncé
+
+
+// Create an array of favorite numbers
+const favNumbers = [7, 13, 21, 42];
+
+
+// Create an array with mixed data types
+const mixedArr = ["string", ["otherarray"], 123, true];
+
+// Access and log each item in mixedArr using array index notation
+console.log(mixedArr[0]); // Output: string
+console.log(mixedArr[1]); // Output: ['otherarray']
+console.log(mixedArr[2]); // Output: 123
+console.log(mixedArr[3]); // Output: true
