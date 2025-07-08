@@ -1,0 +1,21 @@
+// Create a car object
+const car = {
+  type: "Honda",
+  model: "Civic",
+  color: "Blue",
+};
+
+// Check and log the type of the object
+console.log(typeof car); // Output: object
+
+
+// Update the type property
+car.type = "Toyota";
+console.log(car); 
+// Output: { type: 'Toyota', model: 'Civic', color: 'Blue' }
+
+
+// Add a new property
+car.wheels = 4;
+console.log(car);
+// Output: { type: 'Toyota', model: 'Civic', color: 'Blue', wheels: 4 }
